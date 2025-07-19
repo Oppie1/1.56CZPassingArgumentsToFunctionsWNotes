@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+C:\Users\atind\OneDrive\Desktop\1AdamCode\C.GitHubWithNotes\1.56CZPassingArgumentsToFunctionsWNotes\1.56CZPassingArgumentsToFunctionsWNotes\FileName.cpp(21,19): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\atind\OneDrive\Desktop\1AdamCode\C.GitHubWithNotes\1.56CZPassingArgumentsToFunctionsWNotes\1.56CZPassingArgumentsToFunctionsWNotes\FileName.cpp(29,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  1.56CZPassingArgumentsToFunctionsWNotes.vcxproj -> C:\Users\atind\OneDrive\Desktop\1AdamCode\C.GitHubWithNotes\1.56CZPassingArgumentsToFunctionsWNotes\x64\Debug\1.56CZPassingArgumentsToFunctionsWNotes.exe

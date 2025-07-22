@@ -29,9 +29,19 @@ void convertToDollars(float euro) {//Not returning anything back to the function
 	float usd = euro * 1.37;//This is just the equation for the usd variable to convert euro's to dollars.
 	//**So for convertToDollars(1)--> float usd = (1) * 1.37. 1 dollar = 1.37 dollars
 	//**So for converToDollars(5.5) --> usd = (5.5)*1.37 = 7.53. 5.5 euro = 7.53 USD
+	//**So convertToDollars(euro)--(euroAmmount)--> USD
 	printf("%.2f Euros - %.2f USD\n", euro, usd);
 
 	return;
 }
 
-//An argument is just an extra piece of information that is passed into functions.
+/*Arrguments and paramters are related but not the same thing
+Parameter. A parameter is a variable in the function definition. It acts as a placeholder for
+the value that will be provided when the function is called. Example:
+In void convertToDollars(float euro). euro is a parameter
+Argumanet: An argument is the actual value or variable you pass to the function when
+you call it. Example:
+In convertToDollars(euroPrice1); euroPrice1 is an argument
+Summary: Parameters are used in function defintions
+Aruguments are used in function calls.  They work together: arguments fill the parameters
+when function runs.*/
